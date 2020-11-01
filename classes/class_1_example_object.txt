@@ -1,0 +1,16 @@
+Object : Stubens
+
+Attributes:
+totalCapacity: 120
+parking: true
+open: true
+currentCapacity: 60
+rangeOfBeverages: ["soft drinks", "coffee and tea", "beer", "spirits"]
+foodSpecial: true "fried chicken"
+
+Methods:
+calculatePrecentFull: 60 /120 = 50
+parkingLotFull: changes parking boolean to false
+addNewBeverages: ["soft drinks", "coffee and tea", "beer", "spirits", "wine"]
+closed: changes open attribute to false
+sellOutFoodSpecial; changes foodSpecial to false, no foodSpecial available

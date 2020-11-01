@@ -1,0 +1,16 @@
+Class: Restaurant
+
+Attributes:
+totalCapacity: (integer)
+parking: (boolean)
+open: (boolean)
+currentCapacity: (integer)
+rangeOfBeverages: (array)
+foodSpecial: (string, boolean)
+
+Methods:
+calculatePrecentFull: (divides currentCapacity by totalCapacity)
+parkingLotFull: (changes parking boolean to false)
+addNewBeverages: (append a beverage item into beverage array)
+closed: (changes open attribute to false)
+sellOutFoodSpecial: (changes foodSpecial to false)

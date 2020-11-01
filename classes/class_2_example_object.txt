@@ -1,0 +1,16 @@
+Object : TexasRoadhouseBar
+
+Attributes:
+totalSeating: 35
+draftBeer: true
+open: true
+currentSeated: 15
+barStaff: 6
+orderFood: true
+
+Methods:
+calculateOpenSeats: 35 - 15 = 20 open seats
+beerRunsOut: changes draftBeer to false
+barIsClosed: changes open attribute to false 
+staffCallOff: 6 - 1 = 5 staff members
+foodUnavailable: 5 staff or less = false, would be changed to false due to low staff count

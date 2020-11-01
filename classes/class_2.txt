@@ -1,0 +1,16 @@
+Class: RestaurantBar
+
+Attributes:
+totalSeating: (integer)
+draftBeer: (boolean)
+open: (boolean)
+currentSeated: (integer)
+barStaff: (integer)
+orderFood: (boolean)
+
+Methods:
+calculateOpenSeats: (divides currentSeated by totalSeating)
+beerRunsOut: (changes draftBeer to false)
+barIsClosed: (changes open attribute to false)
+staffCallOff: (lowers barStaff count by 1)
+foodUnavailable: (changes orderFood to false)
